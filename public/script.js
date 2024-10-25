@@ -23,7 +23,7 @@ noButton.addEventListener('click', () => {
 
   if (noClickCount === 10) {
     // Change the text above the 'Yes' button
-    question.textContent = 'Do you hate me or smth :(';
+    question.textContent = 'Wenn du weiter no clicks bringt der teddy sich gleich um :(';
     gif.src= "https://media.tenor.com/QOzMqPvW8PUAAAAi/love-you.gif"
   }
 });
@@ -31,7 +31,7 @@ noButton.addEventListener('click', () => {
 yesButton.addEventListener('click', () => {
   // Transform text and buttons
   question.textContent = "❤️ YAAAAY ❤️";
-  yesButton.textContent = "Next time you are in Berlin I will plan something cool";
+  yesButton.textContent = "Ich lad dich zu meinen fav coffee spot ein c:";
   yesButton.style.pointerEvents = 'none'; // Disable further clicks
   noButton.style.display = 'none';
 
