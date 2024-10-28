@@ -15,13 +15,13 @@ noButton.addEventListener('click', () => {
   noClickCount++;
 
   // Check if 'No' button has been clicked 10 times
-  if (noClickCount === 5) {
+  if (noClickCount === 2) {
     // Change the text above the 'Yes' button
     question.textContent = 'Can you like just please click yes';
     gif.src= "https://media.tenor.com/eL8GIMHWbFAAAAAi/bubu-dudu.gif"
   }
 
-  if (noClickCount === 10) {
+  if (noClickCount === 5) {
     // Change the text above the 'Yes' button
     question.textContent = 'Wenn du weiter no clicks bringt der teddy sich gleich um :(';
     gif.src= "https://media.tenor.com/QOzMqPvW8PUAAAAi/love-you.gif"
@@ -31,7 +31,7 @@ noButton.addEventListener('click', () => {
 yesButton.addEventListener('click', () => {
   // Transform text and buttons
   question.textContent = "❤️ YAAAAY ❤️";
-  yesButton.textContent = "Ich lad dich zu meinen fav coffee spot ein c:";
+  yesButton.textContent = "Ich überlg mir was cooles was wir machen können";
   yesButton.style.pointerEvents = 'none'; // Disable further clicks
   noButton.style.display = 'none';
 

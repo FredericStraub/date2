@@ -13,7 +13,7 @@ exports.handler = async function(event, context) {
     };
   }
 
-  const message = data.message || 'Luna clicked Yes on your website!';
+  const message = data.message || 'Gina clicked Yes on your website!';
 
   // Access environment variables for sensitive data
   const TELEGRAM_BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN;
